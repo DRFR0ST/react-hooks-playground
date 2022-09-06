@@ -1,7 +1,7 @@
 import { useUser } from "./hooks/useUser";
 
 const SingleUser = () => {
-  const userRq = useUser();
+  const userRq = useUser(1);
 
   return (
     <div>

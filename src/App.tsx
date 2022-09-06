@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 // ! Change the following line to load up another playground.
-import CurrentPlayground from "./components/SingleUser";
+import CurrentPlayground from "./components/MultiUser";
 
 function App() {
   return (
