@@ -1,9 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import useBlog from './hooks/useBlog';
 
-function App() {
+function BlogView() {
   const blogState = useBlog(1);
   
   console.log("Post State =>", blogState);
@@ -13,7 +11,6 @@ function App() {
   return (
     <div className="App">
        <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
             <p>{blogState.data?.title}</p>
  
             
@@ -25,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default BlogView;
